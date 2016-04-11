@@ -23,8 +23,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         mButton = (Button) findViewById(R.id.btn_show_me_the_chicken);
         mButton.setOnClickListener(this);
 
-        ImageView mImageView = (ImageView)findViewById(R.id.appname);
-        mImageView.setBackgroundResource(R.drawable.app01);
+        //ImageView mImageView = (ImageView)findViewById(R.id.appname);
+        //mImageView.setImageResource(R.drawable.app01);
 
     }
     protected void onResume(){

@@ -15,7 +15,7 @@
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_splash"
             android:theme="@style/FullscreenTheme">
-            <intent-filter><!--launcher activity는 첫 화면으로 intent-filter를 넣어줘야 함-->
+            <intent-filter><!--launcher activity는 첫 화면으로 intent filter를 넣어줘야 함-->
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
